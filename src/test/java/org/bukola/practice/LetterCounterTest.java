@@ -1,4 +1,4 @@
-package org.bukola.lettercounting;
+package org.bukola.practice;
 
 import org.junit.jupiter.api.Test;
 
