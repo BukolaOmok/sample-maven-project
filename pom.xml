@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>sample-maven-project</name>
-  <url>https://maven.apache.org</url>
+  <url>https://maven.apache.org</url> <!--This should be changed to the site where the project can be found-->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -34,12 +34,5 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <url>https://maven.pkg.github.com/BukolaOmok/sample-maven-project.git</url>
-    </repository>
-  </distributionManagement>
 
 </project>
